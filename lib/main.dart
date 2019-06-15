@@ -50,13 +50,13 @@ class MyApp extends StatelessWidget {
               if (snapshot.hasData) {
                 return Column(
                   children: <Widget>[
-                    Text(snapshot.data.userId.toString() ??
+                    Text("Id = " + snapshot.data.userId.toString() ??
                         'Successful call but Unknown Result'),
-                    Text(snapshot.data.email ??
+                    Text("Email = " + snapshot.data.email ??
                         'Successful call but Unknown Result'),
-                    Text(snapshot.data.firstName ??
+                    Text("First name = " + snapshot.data.firstName ??
                         'Successful call but Unknown Result'),
-                    Text(snapshot.data.lastName ??
+                    Text("Last name = " + snapshot.data.lastName ??
                         'Successful call but Unknown Result'),
                     Image.network(snapshot.data.avatar),
                   ],
