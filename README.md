@@ -4,8 +4,16 @@ rest api call
 
 ## Getting Started
 
-Call rest api from this address: (Get method)
+Call rest api from this address (Get method):
+
 https://reqres.in/api/users/2
 
-and show the result on screen
-contains some information & an image
+and show the api call result on screen(
+Text information & an image)
+
+## Screenshots:
+
+<b> Android Version: </b>
+<div align="center">
+     <img src="screenshot/rest_api_app.jpeg" width="200px"</img> 
+</div>
