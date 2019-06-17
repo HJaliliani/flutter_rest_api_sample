@@ -10,7 +10,7 @@ https://reqres.in/api/users/2
 
 and show the api call result on screen(
 Text information & an image)
-
+* If it was useful for you: Don't forget a star
 ## Screenshots:
 
 <b> Android Version: </b>
